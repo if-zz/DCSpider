@@ -20,7 +20,7 @@ class DCSpider(scrapy.Spider):
     #     #      callback='parse_page', follow=True),
     # )
     base_url='http://mycd.qq.com'
-    codecs.open('items.json', 'w', encoding='utf-8').close()
+    # codecs.open('items.json', 'w', encoding='utf-8').close()
     # def parse(self, response):
     #     sel = Selector(response)
     #     sites = sel.xpath('//th/a[@href != "javascript:;"]')
